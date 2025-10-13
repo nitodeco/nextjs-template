@@ -2,6 +2,18 @@
 // See: https://next-intl.dev/docs/workflows/typescript#messages-arguments
 
 declare const messages: {
-    "title": "Next.js Template"
+    "title": "Next.js Template",
+    "home": {
+        "getStarted": "Get started by editing",
+        "page": "src/app/page.tsx",
+        "saveAndSeeYourChangesInstantly": "Save and see your changes instantly.",
+        "deployCta": "Deploy now",
+        "readOurDocs": "Read our docs"
+    },
+    "footer": {
+        "learn": "Learn",
+        "examples": "Examples",
+        "goToNextjsOrg": "Go to nextjs.org →"
+    }
 };
 export default messages;
